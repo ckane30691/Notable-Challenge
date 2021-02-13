@@ -3,7 +3,11 @@ import React from 'react';
 const Physicians = ({ physicians, fetchAppointments }) => {
 	const renderPhysicians = Object.values(physicians).map((doctorObj, idx) => {
 		return (
-			<div key={idx} onClick={() => fetchAppointments(doctorObj.id)}>
+			<div
+				key={idx}
+				onClick={() => fetchAppointments(doctorObj.id)}
+				style={{ cursor: 'pointer' }}
+			>
 				{doctorObj.fname} {doctorObj.lname}
 			</div>
 		);
