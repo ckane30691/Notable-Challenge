@@ -7,7 +7,7 @@
 
 ### Relevant Files/Folders
 
-Backend
+**Backend**
 
 - db
 
@@ -16,7 +16,7 @@ Backend
 
 - app.js
 
-Frontend
+**Frontend**
 
 - App.js
 
