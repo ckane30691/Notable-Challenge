@@ -1,29 +1,23 @@
-const physicians = [
-	{
-		'Hibert, Julius': {
-			id: 1,
-			email: 'hibert@notablehealth.com',
-			fname: 'Julius',
-			lname: 'Hibert',
-		},
+const physicians = {
+	1: {
+		id: 1,
+		email: 'hibert@notablehealth.com',
+		fname: 'Julius',
+		lname: 'Hibert',
 	},
-	{
-		'Krieger, Algernop': {
-			id: 2,
-			email: 'krieger@notablehealth.com',
-			fname: 'Algernop',
-			lname: 'Krieger',
-		},
+	2: {
+		id: 2,
+		email: 'krieger@notablehealth.com',
+		fname: 'Algernop',
+		lname: 'Krieger',
 	},
-	{
-		'Riviera, Nick': {
-			id: 3,
-			email: 'riviera@notablehealth.com',
-			fname: 'Nick',
-			lname: 'Riviera',
-		},
+	3: {
+		id: 3,
+		email: 'riviera@notablehealth.com',
+		fname: 'Nick',
+		lname: 'Riviera',
 	},
-];
+};
 const appointments = {
 	1: [
 		{
