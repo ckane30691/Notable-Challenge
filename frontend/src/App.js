@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import Physicians from './physicians.jsx';
-import Appointments from './appointments.jsx';
+import Physicians from './components/physicians.jsx';
+import Appointments from './components/appointments.jsx';
 import axios from 'axios';
 
 function App() {
