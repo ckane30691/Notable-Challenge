@@ -7,3 +7,5 @@ const fetchPhysicians = () => {
 const fetchAppointments = (physicianId) => {
 	return appointments[physicianId];
 };
+
+module.exports = { fetchAppointments, fetchPhysicians };
